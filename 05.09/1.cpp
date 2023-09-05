@@ -18,7 +18,28 @@ void func3()
 
 int main() 
 {
+	for (int i = 0; i < size; i++)
+	{
+		arr[i] = i + 1;
+	}
+}
+
+void printArr(int arr[], int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		cout << arr[i] << " ";
+	}
+}
+
+int main() 
+{
 	func1();
 	func2();
 	func3();
+
+	const int sizeArr = 5;
+	int arr[sizeArr];
+	initArr(arr, sizeArr);
+	printArr(arr, sizeArr);
 }
