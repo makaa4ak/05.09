@@ -16,6 +16,14 @@ void func3()
 	cout << "Func 3\n" << endl;
 }
 
+void initArr(int arr[], int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		arr[i] = i + 1;
+	}
+}
+
 int main() 
 {
 
