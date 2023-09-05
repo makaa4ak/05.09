@@ -18,6 +18,9 @@ void func3()
 
 void initArr(int arr[], int size)
 {
+	func1();
+	func2();
+	func3();
 	for (int i = 0; i < size; i++)
 	{
 		arr[i] = i + 1;
