@@ -18,6 +18,7 @@ void func3()
 
 int main() 
 {
-
-
+	func1();
+	func2();
+	func3();
 }
